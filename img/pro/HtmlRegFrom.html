@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration From</title>
+  </head>
+  <body>
+    <style media="screen">
+    body{  background:url(images/ach.jpeg);
+    background-repeat: no-repeat;
+  background-size: cover;
+background-position: center;
+background-attachment: fixed;}
+textarea{background-color: rgb(125, 151, 168)}
+    </style>
+    <h1>Html Registration from</h1>
+    <hr>
+    <form >
+      <div class="">
+        <label >First Name :</label>
+        <input type="text" name="firstname" placeholder="firstname" size="15" required><br><br>
+        <label >Middle Name :</label>
+        <input type="text" name="Middlename" placeholder="Middlename" size="15" required><br><br>
+        <label >Last Name :</label>
+        <input type="text" name="Lastname" placeholder="Lastname" size="15" required><br><br>
+        <label> Department</label><br><br>
+        <select >
+          <option value="course">Department</option>
+          <option value="BCA">Manegement</option>
+          <option value="BBA">HR</option>
+        </select><br>
+        <label>Gender</label><br>
+        <input type="radio" name="gender" value="Male">Male <br>
+        <input type="radio" name="gender" value="Female">Female <br>
+        <input type="radio" name="gender" value="Other">Other <br>
+        <label >Phone Number</label>
+        <input type="text" name="country code" value="+44" size="2" >
+        <input type="tel" name="ph number" size="10" ><br><br>
+        <label >Address</label><br><br>
+        <textarea name="address" rows="8" cols="60"></textarea><br><br>
+        <label for="email" >Email Address</label>
+        <input type="email" name="email" ><br><br>
+        <label for="myfile" >Drop your CV</label>
+        <input type="file" name="myfile" >
+        <button type="submit" name="button">Register</button>"
+      </div>
+    </form>
+
+  </body>
+</html>
